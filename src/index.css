@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #8ABDBD url(./images/image.jpg)
+}
+
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wrap1 {
+  height: 160px;
+  position: relative;
+  border: 1px solid black;
+  background: white;
+}
+
+.wrap2 {
+  height: 160px;
+  width: 383px;
+  position: relative;
+  border: 1px solid black;
+  background: #DCE2D0;
+}
+
+textarea {
+  resize: none;
+  height: 139px;
+  border: none;
+  outline: none;
+}
+
+#myInput {
+  position: relative;
+}
+
+#result {
+  height: 143px;
+  width:  371px;
+  background: #DCE2D0;
+  overflow: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.first {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.second {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
