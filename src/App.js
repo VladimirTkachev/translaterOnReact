@@ -55,7 +55,7 @@ changeLang(e, tag) {
             <select 
             className = "first" 
             id = "1" 
-            onChange = {e => this.changeLang(e.target.value)}>
+            onChange = {e => this.changeLang(e, 'first')}>
             {optionList}
             </select>           
           </div>
